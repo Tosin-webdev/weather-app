@@ -1,9 +1,7 @@
 {
   "dependencies": {
-    "D": "^1.0.0",
     "express": "^4.17.1",
     "hbs": "^4.2.0",
-    "nodemon": "^2.0.15",
     "postman-request": "^2.88.1-postman.30"
   },
   "name": "web-server",
@@ -17,5 +15,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
