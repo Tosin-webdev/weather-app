@@ -33,6 +33,7 @@ app.get("/about", (req, res) => {
   });
 });
 
+// help route
 app.get("/help", (req, res) => {
   res.render("help", {
     helpText: "Need some help?",
