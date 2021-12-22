@@ -67,6 +67,7 @@ app.get("/weather", (req, res) => {
   );
 });
 
+// products route
 app.get("/products", (req, res) => {
   if (!req.query.search) {
     return res.json({
