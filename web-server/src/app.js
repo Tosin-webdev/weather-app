@@ -41,6 +41,7 @@ app.get("/help", (req, res) => {
   });
 });
 
+// weather route
 app.get("/weather", (req, res) => {
   if (!req.query.address) {
     return res.json({
